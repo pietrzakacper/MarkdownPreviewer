@@ -1,0 +1,20 @@
+$background-color: rgb(89, 91, 241);
+$container-color: white;
+body {
+    background: $background-color;
+    .container {
+      background: $container-color;
+        margin-top: 20px;
+        border: {
+            width: 5px;
+            style: solid;
+            color: black;
+            radius: 10px;
+        }
+        padding: 40px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+}
